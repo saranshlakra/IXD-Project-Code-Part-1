@@ -3,3 +3,4 @@
 ## I have developed mobile version only because the design is for mobile application.
 ## Please read the alert box on the website and do the steps accordingly to view the mobile version on your desktop.
 ## For best result use google chrome and choose dimensions to Iphone SE.
+## Please ignor favicon icon 404 error.
