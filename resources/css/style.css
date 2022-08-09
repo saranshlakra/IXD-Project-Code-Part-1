@@ -1,0 +1,148 @@
+body {
+    display: none; 
+     /* none because this project is for mobile  */
+}
+
+@media only screen and (max-device-width: 480px) {
+
+body{
+    background-color: #3FBDF1;
+    font-family: 'Poppins';
+    /* font-size: 22px; */
+    display: block;
+    
+}
+
+#logo-div {
+    position: absolute;
+    transform: translate(24%, 100%);    
+}
+
+#tagline {
+    margin: 0;
+    color: white;
+}
+
+#homepage-logo {
+    position: absolute;
+    margin-top: 42%;
+    margin-left: 12%;
+}
+
+#btn-div {
+    width: 94%;
+    position: absolute;
+    margin-top: 125%;
+    margin-left: 1%;
+    display: inline-block;
+}
+
+
+.btn {
+    width: 100%;
+    padding: 5%;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10%;
+}
+
+#btn-2 {
+    background-color: #06283D;
+    color: white;
+}
+
+footer {
+    position: absolute;
+    margin-top: 165%;
+    margin-left: 36%;
+}
+
+#sec-2, #sec-3 {
+    display: none;
+}
+
+form {
+    padding: 0 4%;
+
+}
+
+.container input {
+    width: 90%;
+    border: none;
+    padding: 5%;
+    margin: 2% 0px;
+    border-radius: 4px;
+}
+
+#applicant-nav {
+    padding: 1em;
+}
+
+button {
+    width: 94%;
+    padding: 4%;
+    margin: 2% 3%;
+    background-color: #06283D;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.container h1 {
+    color: white;
+    padding: 4% 20%;
+    width: fit-content;
+    font-weight: 400;
+
+
+}
+
+.container {
+    color: white;
+}
+
+ label {
+    font-weight: 400;
+
+}
+
+.registerbtn {
+    margin-top: 5em;
+
+}
+
+#terms {
+    display: inline-block;
+}
+
+#checkbox {
+    width: auto;
+}
+
+#uName {
+    padding-top: 1em;
+    margin-left: 0.5em;
+    color: white;
+}
+#subject {
+    display: none;
+}
+
+#courses {
+    width: 90%;
+    border: none;
+    padding: 1em;
+    border-radius: 6px;
+    margin-left: 1em;
+}
+
+#courses option {
+    width: 50%;
+}
+
+#user {
+    padding-top: 5em;
+    padding-left: 3em;
+
+}
+}
